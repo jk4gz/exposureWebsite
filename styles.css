@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat";
+}
+
 /*STELLA*/
 
 
@@ -13,3 +17,31 @@
 }
 
 /*JOSEPH*/
+
+.hackcville {
+    height: 700px;
+/*    background-color: red;*/
+}
+
+.hackcville h1 {
+    font-size: 40pt;
+}
+
+.hackRow {
+/*    background-color: blue;*/
+    height: 100px;
+}
+
+.hackCol {
+    height: 100%;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testCol {
+    border-color: black;
+    height: 100%;
+    border-style: solid;
+    
+}
