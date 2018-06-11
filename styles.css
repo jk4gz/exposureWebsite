@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat";
+}
+
 /*STELLA*/
 
 
@@ -100,3 +104,63 @@
 	color: #2978A0;
 }
 /*JOSEPH*/
+
+.hackcville {
+    height: 1000px;
+}
+
+.hackcville h1 {
+    font-size: 40pt;
+}
+
+.hackcville p {
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.hackRow {
+    height: 100px;
+}
+
+.hackCol {
+    height: 100%;
+}
+
+.commonText {
+    display: block;
+    height: 50%;
+}
+
+.desktopText {
+    display: block;
+    height: 50%;
+}
+
+.desktopText1 {
+    display: block;
+    height: 100%;
+}
+
+.ipadText {
+    display: none;
+    height: 50%;
+}
+
+.ipadText1 {
+    display: none;
+}
+
+.desktopButton {
+    display: block;
+}
+
+.ipadButton {
+    display: none;
+}
+
+@media only screen and (max-width:1170px) {
+    .hackcville h1 {
+        font-size: 2.5em;
+    }
+}
+
