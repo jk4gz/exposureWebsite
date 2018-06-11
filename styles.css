@@ -14,8 +14,95 @@ body {
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.top-bar{
+	padding-top: 15px;
 }
 
+.icon img{
+	height: 90px;
+	width: auto;
+}
+
+.button-top{
+	height: 40px;
+	width: 80px;
+	background-color: #85CB33;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding-top: 6px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	color: white;
+}
+
+.title{
+	text-align: center;
+	margin-top:100px;
+}
+
+.title h1{
+	color:#FCFFFD;
+	font-size: 28px;
+}
+.title img{
+	height: 140px;
+	width: auto;
+}
+.about-info{
+	margin-top: 40px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.about-box{
+	height: 140px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #2978A0;
+	color:#FCFFFD;
+	text-align: center;
+}
+.button-about{
+	height: 40px;
+	width: 100px;
+	background-color: #85CB33;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding-top: 6px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+	color: black;
+}
+.instr-panel{
+	background-color: #135055;
+	height:650px;
+	box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.2);
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+
+}
+.instr-panel h4{
+	text-align: center;
+}
+.instr-panel img{
+	width: 90%;
+	height: auto;
+}
+.instr-button{
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding-top: 6px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+	color: #2978A0;
+}
 /*JOSEPH*/
 
 .hackcville {
