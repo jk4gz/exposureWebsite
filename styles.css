@@ -230,12 +230,11 @@ margin-top: 60px;
 }
 
 .hackcville h1 {
-    font-size: 40pt;
+    font-size: 2.5rem;
 }
 
 .hackcville p {
     font-size: 15px;
-    font-weight: 600;
 }
 
 .hackRow {
@@ -248,12 +247,14 @@ margin-top: 60px;
 
 .commonText {
     display: block;
-    height: 50%;
+    height: 30%;
+    margin-left: 5%;
 }
 
 .desktopText {
     display: block;
     height: 50%;
+    margin-left: 5%;
 }
 
 .desktopText1 {
