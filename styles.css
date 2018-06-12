@@ -61,26 +61,29 @@ body {
 }
 .about-box{
 	height: 110px;
-	margin-right: 0px;
-	margin-left: 20px;
-	margin-bottom: 20px;
+	margin-right: 21px;
+	margin-left: 0px;
+	margin-bottom: 21px;
 	background-color: #2978A0;
 	color:#FCFFFD;
 	text-align: center;
 	vertical-align: bottom;
-	position: relative;
 	z-index: 10;
 	font-size: 20px;
 	padding-top: 20px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 .about-box p{
 	vertical-align: bottom;
 
 }
+.under{
+	position: relative;
+}
 .over{
 	position: absolute;
-	top: 130px;
-	left: 65px;
+
+	padding: 0;
 	background-color: transparent;
 	border-color: black;
 	border-width: thick;
@@ -137,6 +140,7 @@ body {
   position: relative;
 margin-top: 60px;
   width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Hide the images by default */
