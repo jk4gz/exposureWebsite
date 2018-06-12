@@ -54,14 +54,39 @@ body {
 	margin-top: 40px;
 	margin-left: 80px;
 	margin-right: 80px;
+	font-size: 15px;
+}
+.blocks{
+	margin-top: 30px;
 }
 .about-box{
-	height: 140px;
-	margin-right: 20px;
+	height: 110px;
+	margin-right: 0px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 	background-color: #2978A0;
 	color:#FCFFFD;
 	text-align: center;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 10;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.about-box p{
+	vertical-align: bottom;
+
+}
+.over{
+	position: absolute;
+	top: 130px;
+	left: 65px;
+	background-color: transparent;
+	border-color: black;
+	border-width: thick;
+	z-index: 999;
+	border-style: solid;
+
 }
 .button-about{
 	height: 40px;
@@ -76,12 +101,12 @@ body {
 }
 .instr-panel{
 	background-color: #135055;
-	height:650px;
+	height:900px;
 	box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.2);
 	color: white;
-	padding-top: 40px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-top: 50px;
+	padding-left: 45px;
+	padding-right: 45px;
 	
 
 }
@@ -89,8 +114,10 @@ body {
 	text-align: center;
 }
 .instr-panel img{
-	width: 90%;
+	width: 100%;
 	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .instr-button{
 	height: 40px;
@@ -98,10 +125,103 @@ body {
 	background-color: white;
 	text-align: center;
 	vertical-align: middle;
-	margin-top: 10px;
+	margin-top: 45px;
 	padding-top: 6px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 	color: #2978A0;
+}
+
+/*GALLERY*/
+/* Position the image container (needed to position the left and right arrows) */
+.gallery {
+  position: relative;
+margin-top: 60px;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  
+}
+.first{
+	display: block;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row{
+	margin-left: 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 /*JOSEPH*/
 
